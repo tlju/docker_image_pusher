@@ -1,4 +1,4 @@
 #atrust
-#hagb/docker-atrust
-debian:bookworm-slim
-ubuntu
+hagb/docker-atrust:dev
+#debian:bookworm-slim
+#ubuntu
