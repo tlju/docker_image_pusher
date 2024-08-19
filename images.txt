@@ -1,5 +1,5 @@
-centos7
+dokken/centos-7
 redis
-minio
+bitnami/minio
 tomcat
 zookeeper
