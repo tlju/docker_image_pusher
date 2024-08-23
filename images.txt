@@ -1,5 +1,1 @@
-dokken/centos-7
-redis
-bitnami/minio
-tomcat
-zookeeper
+redis:6.2.14-bookworm
