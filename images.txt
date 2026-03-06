@@ -1,1 +1,1 @@
-postgres:latest
+postgres:14.22-bookworm
