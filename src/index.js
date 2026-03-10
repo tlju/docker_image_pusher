@@ -229,7 +229,7 @@ async function handleUpdate(request, kv) {
     repo: await kv.get("GITHUB_REPO"),
     path: await kv.get("FILE_PATH"),
     branch: await kv.get("BRANCH") || "main",
-    token: await kv.get("GH_TOKEN")
+    token: await kv.get("GITHUB_TOKEN")
   };
   if (!config.owner || !config.repo || !config.path || !config.token) {
     return json({ error: "KV 缺少必要配置项" }, 500);
