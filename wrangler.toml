@@ -1,24 +1,7 @@
 name = "docker_image_pusher"
 main = "src/index.js"
-compatibility_date = "2026-02-28"
+compatibility_date = "2026-03-11"
 
-[vars]
-GITHUB_OWNER = "tlju"
-GITHUB_REPO = "docker_image_pusher"
-BRANCH = "main"
-FILE_PATH = "images.txt"
-
-[observability]
-enabled = false
-head_sampling_rate = 1
-
-[observability.logs]
-enabled = true
-head_sampling_rate = 1
-persist = true
-invocation_logs = true
-
-[observability.traces]
-enabled = false
-persist = true
-head_sampling_rate = 1
+[[kv_namespaces]]
+binding = "DOCKER_KV"  # 代码中引用的变量名
+id = "f49a43bc61f84389a3d191c08836a482" # 控制面板里那个长长的 ID
