@@ -5,3 +5,8 @@ compatibility_date = "2026-03-11"
 [[kv_namespaces]]
 binding = "DOCKER_KV"  # 代码中引用的变量名
 id = "f49a43bc61f84389a3d191c08836a482" # 控制面板里那个长长的 ID
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
