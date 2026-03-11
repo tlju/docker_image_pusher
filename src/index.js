@@ -84,13 +84,13 @@ async function handleRegistry(request, kv, url) {
   }
 
   // 调试信息（方便排查）
-  await kv.put("DEBUG_URL", JSON.stringify({ href: url.href, pathname: url.pathname }));
+  // await kv.put("DEBUG_URL", JSON.stringify({ href: url.href, pathname: url.pathname }));
 
   const config = await initRegistryConfig(kv, pathname);
   const parsedInfo = parseImagePath(pathname);
 
-  await kv.put("DEBUG_CONFIG", JSON.stringify(config));
-  await kv.put("DEBUG_PARSED_INFO", JSON.stringify(parsedInfo));
+  // await kv.put("DEBUG_CONFIG", JSON.stringify(config));
+  // await kv.put("DEBUG_PARSED_INFO", JSON.stringify(parsedInfo));
 
   const last_workflow = await getWorkflowStatus(kv);
 
