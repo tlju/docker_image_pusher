@@ -1,1 +1,1 @@
-library/nginx:sha256:a76df3b4f1478766631c794de7ff466aca466f995fd5bb216bb9643a3dd2a6bb
+nginx:1.20
