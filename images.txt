@@ -1,1 +1,1 @@
-nginx:latest
+library/nginx:sha256:38f8c1d9613f3f42e7969c3b1dd5c3277e635d4576713e6453c6193e66270a6d
