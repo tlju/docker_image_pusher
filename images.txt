@@ -1,1 +1,1 @@
-nginx:latest
+oznu/cloudflare-ddns:latest
