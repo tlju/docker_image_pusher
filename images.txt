@@ -1,1 +1,1 @@
-redis:latest
+m1k1o/blog:latest
