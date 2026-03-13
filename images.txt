@@ -1,1 +1,1 @@
-halohub/halo:latest
+halohub/halo:sha-37fcdd4
