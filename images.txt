@@ -1,1 +1,1 @@
-m1k1o/blog:latest
+halohub/halo:latest
